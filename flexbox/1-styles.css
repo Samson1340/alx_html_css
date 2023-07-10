@@ -315,7 +315,7 @@
   /* Section (all styles)
       ============================= */
   
-  .section, .section-services {
+  .section {
     padding: var(--section-padding);
   }
   
