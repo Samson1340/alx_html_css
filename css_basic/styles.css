@@ -55,16 +55,7 @@ aside{
     overflow: auto;
     padding-left: 2rem;
 }
-table{
-    margin: 10px auto;
-}
 
-tr, th, td{
-    text-align: center;
-    border: 1px solid black;
-    font-size: 1.2em;
-    padding: 10px;
-}
 h2{
     font-size: 3em;
 }
