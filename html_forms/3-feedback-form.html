@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <form action="">
+    
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required >
+    
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+    
+        <fieldset>
+            <legend>Select Feedback Opition</legend>
+            <input type="checkbox" name="excellent" id="excellent" required>
+            <label for="excellent">Excellent</label>
+            <input type="checkbox" name="good" id="good" required>
+            <label for="good">Good</label>
+            <input type="checkbox" name="average" id="average" required>
+            <label for="average">Average</label>
+            <input type="checkbox" name="poor" id="poor" required>
+            <label for="poor">Poor</label>
+        </fieldset>
+        <label for="file-field">File</label>
+        <input type="file" name="file-field" id="file-field" required>
+        
+        
+        <input type="submit" value="Submit">
+    </li>
+</ul>
+</form>
+</body>
+</html>
